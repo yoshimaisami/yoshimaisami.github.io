@@ -1,0 +1,43 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    text-align: center; 
+
+}
+
+
+img {
+    border-color: seagreen;
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    border-width: 3px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .medium-50 {
+      width: 50%;
+    }
+  }
+
+@media screen and (max-width: 576px) {
+    .small-100 {
+      width: 100%;
+   }	
+      
+      .hidden-small {
+          display: none;
+      }
+  
+  }
+
